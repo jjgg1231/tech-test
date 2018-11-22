@@ -209,3 +209,43 @@
         text-align: center;
     }
 }
+
+.basket-summary__breakdown-content ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .basket-summary__container {
+    padding: 12px 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .basket-summary__breakdown {
+        width: 69.38776%;
+        float: left;
+        margin-right: 2.04082%;
+        margin-left: 12px;
+}
+    
+    .basket-summary__totals {
+        width: 26.57143%;
+        float: left;
+        margin-right: 2.04082%;
+        margin-right: 12px;
+    }
+}
+
+#holiday-bd-IIYH, #holiday-bd-EB, #holiday-bd-HE {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+}
+
+#holiday-bd-IIYH li, #holiday-bd-EB li, #holiday-bd-HE li{
+    padding:4px;
+}
+
+.basket-summary__price-value{
+    float:right;
+}
